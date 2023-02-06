@@ -17,7 +17,7 @@ set shiftwidth=4
 set vb t_vb=
 au GuiEnter * set t_vb=
 " 選中狀態下 Ctrl+c 複製
-vmap <C-c> "+y
+vmap <C-c> y
 " 對映全選+複製 ctrl+a
 map <C-A> ggVGY
 map! <C-A> <Esc>ggVGY
